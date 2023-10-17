@@ -1,5 +1,5 @@
 {% set name = "PyRSMQ" %}
-{% set version = "0.4.5" %}
+{% set version = "0.5.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2cd1883029fc3bcedd6fdfd98529146ce218818a5073cae5e2e117881e077d4f
+  sha256: 68ba774ba544cd976622c9375c69e21b89a6fbb41221dbebb706733846d557a6
 
 build:
   noarch: python
